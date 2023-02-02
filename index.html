@@ -13,7 +13,7 @@
 		<header class="header">
 			<nav class="navbar-logo flex">
 				<a class="logo" href="index.html">
-					<img src="https://cdn-icons-png.flaticon.com/512/8221/8221676.png" alt="logo" width="50px" height="50px">
+					<div class="logo_img"></div>
 					<p>Best Store</p>
 					
 				</a>
@@ -22,30 +22,30 @@
 					<p>Categories</p>
 				</div>
 			</nav>
-			<div class="search">
-				<input type="text" placeholder="Products and Reviews">
+			<div class="search-main search">
+				<input id="search" type="text" placeholder="Products and Reviews">
 				<button class="search__button">
 					<img src="https://cdn-icons-png.flaticon.com/512/6023/6023719.png" alt="" width="100%">
 				</button>
 			</div>
 			<div class="navbar-contacts">
-				<a href="#">Contacts</a>
-				<a href="#">Help</a>
+				<a href="cart.html"><img src="https://cdn-icons-png.flaticon.com/512/165/165288.png" alt="" width="30px"></a>
+				<a href="#" class="help">Contacts</a>
 			</div>
 		</header>
 		<article class="banner">
 			<div class="banner__info">
-				<h1>The Best Products</h1>
-				<h2>in Every Category</h2>
+				<h1>The Best Products <br class="banner__info_br">
+				in Every Category</h1>
 				<div class="banner__info_search search">
-					<input type="text" placeholder="Products and Reviews">
+					<input type="text" id="banner_search" placeholder="Products and Reviews">
 					<button class="search__button">
 						<img src="https://cdn-icons-png.flaticon.com/512/6023/6023719.png" alt="" width="100%">
 					</button>
 				</div>
 			</div>
 			<div class="banner__info info-img-block">
-				<img class="banner__info-img" src="https://i.ytimg.com/vi/UcMTMIwCV6I/maxresdefault.jpg" height="100%" alt="">
+				<img id="banner__info-img" class="banner__info-img" src="https://i.ytimg.com/vi/UcMTMIwCV6I/maxresdefault.jpg" height="100%" alt="">
 			</div>
 		</article>
 		<div class="block-title">
@@ -112,6 +112,32 @@
 					For Your dourney</h3>
 			</div>
 		</article>
+		<article class="qualities">
+			<h1>Why you should choose us?</h1>
+			<section class="qualities__items">
+				<div class="qualities__items_item">
+					<img src="https://cdn-icons-png.flaticon.com/512/7610/7610711.png" alt="delivery" width="70px">
+					<div class="item__circle"></div>
+					<h2>Fast Delivery</h2>
+					<p>Delivery less than 3 days</p>
+				</div>
+				<div class="qualities__items_item">
+					<img src="https://cdn-icons-png.flaticon.com/512/4305/4305339.png" alt="delivery" width="70px">
+					<div class="item__circle"></div>
+					<h2>Lowest Price</h2>
+					<p>Вiscounts of more than 40%</p>
+				</div>
+				<div class="qualities__items_item">
+					<img src="https://cdn-icons-png.flaticon.com/512/702/702455.png" alt="delivery" width="70px">
+					<div class="item__circle"></div>
+					<h2>Large Assortment</h2>
+					<p>There is any product</p>
+				</div>
+			</section>
+		</article>
 	</container>
+	<footer class="footer">
+		<h2>© Best Store</h2>
+	</footer>
 </body>
 </html>
